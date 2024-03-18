@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<body>
+    <h1 id="TopText"> Cookie Typer </h1>
+
+   <div class="cookies">
+        <label id="moneyPerSec"></label><br>
+        <label id="cookieSave"></label><br>
+        <label id="cookieInBakery"></label><br>
+        <label id="specialCookieChance"></label>
+    </div>
+
+    <div class="generatedText">
+        <label id="writtenText"></label>
+        <label id="unwrittenText"></label>
+    </div>
+ 
+    <div id="keyboard">
+        <div id="innerKeyboard">
+          <img src="keyUpImages/keyboard.png" width="500" height=auto>
+        </div>
+    </div>
+    <div id="superCookieModalBackground"><div id="superCookieModal"></div></div>
+    <div id="storeAndHover">
+      <div id="store">
+        <h1>Store</h1>
+          <div>
+            <h2>Upgrades</h2>
+            <div id="upgradesDiv"></div>
+          </div>
+          <div>
+            <h2>Buy</h2>
+            <table id="buyTable">
+            </table>
+          </div>
+      </div>
+      <div id="hover"></div>
+    </div>
+    <img src="cookieImages/spinningCookie.png" id="spinningCookie" width=200px height=150px>
+
+    <label class="switch" id="toggleMode">
+
+        <input type="checkbox" tabindex="-1" onclick="toggleDarkMode()">
+
+        <span class="slider round"></span>
+    </label>
+    <button class="button-5" id="trollButton" onClick="troll()"> 1000 cookies for 10x cookies FOREVER</button>
+    <script src="squish.js"></script>
+    <script src="updateStore.js"></script>
+    <script src="storeBuy.js"></script>
+    <script src="defineStore.js"></script>
+    <script src="words.js"></script>
+    <script src="generateText.js"></script>
+    <script src="keys.js"></script>
+    <script src="main.js"></script>
+    <script src="incorrect.js"></script>
+    <script src="increment.js"></script>
+    <script src="updateKeyVisibility.js"></script>
+    <script src="specialCookies.js"></script>
+    <script src="defineCookies.js"></script>
+    <script src="valueCookies.js"></script>
+    <script src="increaseCookies.js"></script>
+    <script src="evil.js"></script>
+</body>
+<head>
+    <title>Cookie Typer</title>
+</head>
+<!--
+Sources:
+
+spinningcookie icon:http://clipart-library.com/clip-art/cookies-transparent-background-7.htm
+words icon: https://schoolsweek.co.uk/developing-pupils-vocabulary-is-about-more-than-words/
+farm icon: https://foodtank.com/news/2020/04/over-50-organizations-urge-congress-to-prioritize-small-mid-sized-farms-for-covid-19-relief/
+grandma: https://www.pinterest.com/pin/21884748176582766/
+keyboard icon: https://www.dell.com/en-us/shop/dell-wireless-keyboard-kb500/apd/580-aklj/pc-accessories
+Jelly cookie: https://urbanblisslife.com/chewy-chocolate-fudge-cookies/
+Fudge cookie: https://simplyhomecooked.com/double-chocolate-cookies/
+Kiwi cookie: https://monsterbake.wordpress.com/2012/01/29/meta-kiwi-biscuits/
+Drop cookie: https://barefeetinthekitchen.com/glazed-lemon-drop-cookies-recipe/
+Lady finger cookie: https://www.cdkitchen.com/recipes/recs/32/Ladyfingers48183.shtml
+Snickerdoodle cookie: https://www.bakefromscratch.com/snickerdoodles/
+Semi sweet chocolate cookie: https://ohsweetbasil.com/chocolate-lovers-chocolate-chip-cookies/
+Apple cider cookie: https://stephaniessweets.com/apple-cider-cookies/
+Hazelnut cookie: https://www.internationaldessertsblog.com/german-hazelnut-cookies/
+Gingerbread cookie: https://sugarspunrun.com/gingerbread-men/
+-->
